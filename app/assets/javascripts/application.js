@@ -25,14 +25,6 @@ function parallex () {
 	var ypos = window.pageYOffset; 
 	var	image = document.getElementById('section_1'); 
 	image.style.top = ypos * -.2 + "px"; 
-
-	if (ypos > 1000){
-		image = document.getElementById('section_1'); 
-		image.style.display = "none"; 
-		}
-	else if (ypos <1000) {
-		image.style.display = "block";
-	}
 }	
 window.addEventListener('scroll', parallex);
 
