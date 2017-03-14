@@ -4,7 +4,7 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
-gem 'pg'
+
 gem 'simple_form', '~> 3.4'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '>= 3.2'
@@ -35,6 +35,10 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+group :production do 
+  gem 'pg'
+end 
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
