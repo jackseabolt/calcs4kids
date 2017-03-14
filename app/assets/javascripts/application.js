@@ -33,8 +33,7 @@ function parallex () {
 	else if (ypos <1000) {
 		image.style.display = "block";
 	}
-}
-	
+}	
 window.addEventListener('scroll', parallex);
 
 
@@ -48,7 +47,6 @@ $(document).on('turbolinks:load', function(){
 	window.addEventListener('scroll', note);
 
 
-
 	function note_title () {
 		pos = window.pageYOffset;
 		if (pos > 300) {
@@ -56,4 +54,59 @@ $(document).on('turbolinks:load', function(){
 		} 
 	}
 	window.addEventListener('scroll', note_title);
-});
+
+
+	function left() {
+		pos = window.pageYOffset; 
+		if (pos > 700) {
+			$('.left').animate({left: '0px'}, 1200);
+		}
+	}
+	window.addEventListener('scroll', left);
+
+	function right() {
+		pos = window.pageYOffset; 
+		if (pos > 1400) {
+			$('.right').animate({right: '0px'}, 1200);
+		}
+	}
+	window.addEventListener('scroll', right);
+
+
+// social media links
+
+	$('#facebook').hover(
+	    function(){
+	        $(this).animate({'backgroundColor': '#404a87'},400);
+	    },
+	    function(){
+	        $(this).animate({'backgroundColor': '#9a9999'},400);
+	    }
+	);
+	$('#twitter').hover(
+	    function(){
+	        $(this).animate({'backgroundColor': '#6bb2d0'},400);
+	    },
+	    function(){
+	        $(this).animate({'backgroundColor': '#9a9999'},400);
+	    }
+	);
+	$('#google').hover(
+	    function(){
+	        $(this).animate({'backgroundColor': '#cb3939'},400);
+	    },
+	    function(){
+	        $(this).animate({'backgroundColor': '#9a9999'},400);
+	    }
+	);
+	$('#pinterest').hover(
+	    function(){
+	        $(this).animate({'backgroundColor': '#cb3939'},400);
+	    },
+	    function(){
+	        $(this).animate({'backgroundColor': '#9a9999'},400);
+	    }
+	);
+
+});	
+	
