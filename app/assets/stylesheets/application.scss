@@ -22,7 +22,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  overflow: hidden;
 }
 .blue { 
 	color: #a0a7cb;
@@ -185,12 +184,14 @@ h2 {
 	background-color: #e9e9e9;
 	padding-top: 150px;
 	padding-bottom: 150px;
+	overflow: hidden;
 }
 .section_4 {
 	z-index: -1;
 	background-color: white;
 	padding-top: 150px;
 	padding-bottom: 150px;
+	overflow: hidden;
 }
 #social_links_container {
 	padding-right: 80px !important;
