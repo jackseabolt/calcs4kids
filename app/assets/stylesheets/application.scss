@@ -251,6 +251,9 @@ h2 {
 	color: white;
 }
 @media screen and (min-width: 1300px){
+.map {
+		width: 100%;
+}	
 .section_2 {
 	margin-top: 1000px;
 }
@@ -259,6 +262,12 @@ h2 {
 }
 .section_1 {
 	padding-top: 70px;
+}
+.text_section {
+	padding-top: 50px;
+}
+.text_section_donation {
+	padding-top: 40px;
 }
 
 }
@@ -273,6 +282,9 @@ h2 {
 	.map {
 		width: 290px;
 		margin-top: 40px;
+	}
+	.text_section {
+		padding-top: 0px;
 	}
 }
 
