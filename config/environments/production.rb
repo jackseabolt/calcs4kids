@@ -7,7 +7,7 @@ Rails.application.configure do
     :domain => "gmail.com",
     :user_name => "seaboltmarketing@gmail.com",
     :password => "7Testing",
-    :authentication => "plain",
+    :authentication => "plain"
   }
 
   # Code is not reloaded between requests.
