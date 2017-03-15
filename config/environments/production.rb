@@ -8,7 +8,6 @@ Rails.application.configure do
     :user_name => "seaboltmarketing@gmail.com",
     :password => "7Testing",
     :authentication => "plain",
-    :enable_starttls_auto => true
   }
 
   # Code is not reloaded between requests.
