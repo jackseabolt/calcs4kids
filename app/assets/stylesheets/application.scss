@@ -250,7 +250,12 @@ h2 {
 .white {
 	color: white;
 }
+@media screen and (min-width: 1200px){
+.section_2 {
+	margin-top: 1000px;
+}
 
+}
 @media screen and (max-width: 1000px){
 
 	h1, h2 {
