@@ -16,6 +16,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+a:hover {
+	text-decoration: none !important;
+}
 body { 
   background: url(pencil.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
