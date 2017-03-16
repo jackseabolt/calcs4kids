@@ -391,9 +391,6 @@ h2 {
 		left: 0px;
 		margin-left: 0px;
 	}
-	#calculator {
-		margin-top: 33px;
-	}
 	h1 {
 		line-height: 23px;
 		font-size: 27px;
@@ -425,7 +422,11 @@ h2 {
 		display: none;
 	}
 }
-
+@media screen and (max-width: 380px){
+	#calculator {
+		margin-top: 37px;
+	}
+}
 
 
 
