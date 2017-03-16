@@ -17,7 +17,11 @@
 //= require_tree .
 
 
-
+function drop() {
+	    $('html,body').animate({
+	        scrollTop: $(".section_5").offset().top},
+	        'slow'); 
+	}
 
 function parallex () {
 	var ypos = window.pageYOffset; 
@@ -27,12 +31,14 @@ function parallex () {
 }	
 window.addEventListener('scroll', parallex);
 
-function dive(){
-	var ypos = window.pageYOffset; 
-	ypos = "1000px"; 
-}
 
 $(document).on('turbolinks:load', function(){
+
+	
+
+
+
+
 	function note () {
 		pos = window.pageYOffset;
 		if (pos > 300) {
@@ -68,4 +74,42 @@ $(document).on('turbolinks:load', function(){
 	window.addEventListener('scroll', right);
 
 
+	
 
+// social media links
+
+	$('#facebook').hover(
+	    function(){
+	        $(this).animate({'backgroundColor': '#404a87'},400);
+	    },
+	    function(){
+	        $(this).animate({'backgroundColor': '#9a9999'},400);
+	    }
+	);
+	$('#twitter').hover(
+	    function(){
+	        $(this).animate({'backgroundColor': '#6bb2d0'},400);
+	    },
+	    function(){
+	        $(this).animate({'backgroundColor': '#9a9999'},400);
+	    }
+	);
+	$('#google').hover(
+	    function(){
+	        $(this).animate({'backgroundColor': '#cb3939'},400);
+	    },
+	    function(){
+	        $(this).animate({'backgroundColor': '#9a9999'},400);
+	    }
+	);
+	$('#pinterest').hover(
+	    function(){
+	        $(this).animate({'backgroundColor': '#cb3939'},400);
+	    },
+	    function(){
+	        $(this).animate({'backgroundColor': '#9a9999'},400);
+	    }
+	);
+
+});	
+	
