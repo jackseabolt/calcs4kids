@@ -266,6 +266,13 @@ h2 {
 .test {
 	color: black;
 }
+@media screen and (min-width: 1500px){
+.map {
+	position:relative;
+	left: 60px;
+}
+
+}	
 @media screen and (min-width: 1300px){
 #calculator {
 	margin-top: 30px;
