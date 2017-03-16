@@ -90,6 +90,7 @@ body {
 }
 .button-donate:hover {
 	background-color: #888ead;
+	cursor: pointer;
 }
 .button-donate2:hover {
 	background-color: #888ead;
@@ -99,6 +100,7 @@ body {
 }
 .button-donate-alt:hover {
 	background-color: #888ead;
+	cursor: pointer;
 }
 #calculator {
 	margin-top: 30px;
@@ -412,7 +414,7 @@ h2 {
 		font-size: 27px;
 	}
 	.section1-container {
-		margin-bottom: 400px;
+		margin-bottom: 450px;
 	}
 	.section_1 {
 		padding-top: 70px;
