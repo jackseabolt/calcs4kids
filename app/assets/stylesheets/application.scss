@@ -228,7 +228,7 @@ h2 {
 	background-color: black;
 	padding-top: 110px;
 	padding-bottom: 180px;
-		z-index: 999;
+	z-index: 999;
 }
 #social_links_container {
 	padding-right: 80px !important;
@@ -274,35 +274,44 @@ h2 {
 	}
 }	
 @media screen and (min-width: 1300px){
-#calculator {
-	margin-top: 30px;
-	margin-left: 40px;
-	width: 90%;
-	position: relative;
-	left: 30px;
-}
-.map {
-	width: 420px;
-}	
-.section_2 {
-	margin-top:0px;
-}
-.section_1_right {
-	padding-top: 180px;
-}
-.section_1 {
-	padding-top: 70px;
-}
-.section1-container {
-	margin-bottom: 1600px;
-}
-.text_section {
-	padding-top: 50px;
-}
-.text_section_donation {
-	padding-top: 40px;
+	#calculator {
+		margin-top: 30px;
+		margin-left: 40px;
+		width: 90%;
+		position: relative;
+		left: 30px;
+	}
+	.map {
+		width: 400px;
+	}	
+	.section_2 {
+		margin-top:0px;
+	}
+	.section_1_right {
+		padding-top: 180px;
+	}
+	.section_1 {
+		padding-top: 70px;
+	}
+	.section1-container {
+		margin-bottom: 1600px;
+	}
+	.text_section {
+		padding-top: 50px;
+	}
+	.text_section_donation {
+		padding-top: 40px;
+	}
+
 }
 
+
+	
+@media screen and (max-width: 1200px){
+	.map {
+		width: 330px;
+		margin-top: 28px;
+	}
 }
 @media screen and (max-width: 1000px){
 
