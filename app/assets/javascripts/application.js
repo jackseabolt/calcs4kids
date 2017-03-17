@@ -19,8 +19,7 @@
 
 function drop() {
 	    $('html,body').animate({
-	        scrollTop: $(".section_5").offset().top},
-	        'slow'); 
+	        scrollTop: $(".section_5").offset().top},'slow'); 
 	}
 
 function parallex () {
@@ -34,7 +33,7 @@ window.addEventListener('scroll', parallex);
 
 $(document).on('turbolinks:load', function(){
 
-	
+
 
 
 

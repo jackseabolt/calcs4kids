@@ -343,8 +343,11 @@ h2 {
 		padding-top: 100px;
 		padding-left: 0px;
 	}
+	.section1-container {
+		margin-bottom: 700px;
+	}
 	.section_2 {
-		margin-top: 700px;
+		margin-top: 0px;
 		z-index: 22;
 		background-color: #474c67;
 		padding-top: 100px;
@@ -421,7 +424,7 @@ h2 {
 		font-size: 27px;
 	}
 	.section1-container {
-		margin-bottom: 450px;
+		margin-bottom: 700px;
 	}
 	.section_1 {
 		padding-top: 70px;
@@ -452,7 +455,7 @@ h2 {
 }
 @media screen and (max-width: 380px){
 	#calculator {
-		margin-top: 39px;
+		margin-top: 25px;
 	}
 }
 
