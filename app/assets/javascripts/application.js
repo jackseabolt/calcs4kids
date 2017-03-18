@@ -22,11 +22,11 @@
 		        scrollTop: $(".section_5").offset().top},'slow'); 
 		}
 
+
 	function parallex () {
 		var ypos = window.pageYOffset; 
 		var	image = document.getElementById('section_1'); 
 		image.style.top = ypos * -.2 + "px"; 
-		// image.style.marginTop = (700 - (ypos * .2)) + "px"; 
 	}	
 	window.addEventListener('scroll', parallex);
 
