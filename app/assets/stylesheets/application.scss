@@ -273,7 +273,7 @@ h2 {
 		left: 60px;
 	}
 }
-	
+
 @media screen and (min-width: 1300px){
 	#calculator {
 		margin-top: 30px;
@@ -298,7 +298,7 @@ h2 {
 		margin-bottom: 1600px;
 	}
 	.text_section {
-		padding-top: 50px;
+		padding-top: 30px;
 	}
 	.text_section_donation {
 		padding-top: 40px;
@@ -309,6 +309,9 @@ h2 {
 	.map {
 		width: 330px;
 		margin-top: 28px;
+	}
+	.text_section {
+		padding-top: 0px;
 	}
 }
 
@@ -324,7 +327,7 @@ h2 {
 		margin-top: 40px;
 	}
 	.text_section {
-		padding-top: 0px;
+		top: -25px;
 	}
 }
 
