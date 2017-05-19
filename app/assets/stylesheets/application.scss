@@ -19,6 +19,15 @@
 a:hover {
 	text-decoration: none !important;
 }
+#arrow {
+	position: fixed;
+	bottom: 0px; 
+	left:50%;
+	transform: translate(-50%, 0);
+	text-align: center;
+	opacity: 0; 
+	width: 120px; 
+}	
 body { 
   -webkit-background-size: cover;
   -moz-background-size: cover;

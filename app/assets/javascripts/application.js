@@ -38,8 +38,6 @@
 
 	$(document).on('turbolinks:load', function(){
 
-
-
 		function note () {
 			pos = window.pageYOffset;
 			if (pos > 300) {
@@ -68,11 +66,27 @@
 
 		function right() {
 			pos = window.pageYOffset; 
-			if (pos > 1400) {
+			if (pos > 1500) {
 				$('.right').animate({right: '0px'}, 1200);
 			}
 		}
 		window.addEventListener('scroll', right);
+
+		// controlls scroll down arrow appearance and vanicsh
+
+		function arrow() {
+			pos = window.pageYOffset; 
+			if (pos > 300) {
+				$('#arrow').animate({opacity: '0'}, 500); 
+			}
+		}
+		window.addEventListener('scroll', arrow); 
+
+		function arrowFadeIn(){
+			$('#arrow').animate({opacity: '0.2'}, 800); 
+		}
+
+		setTimeout(arrowFadeIn, 500); 
 
     });
 	
