@@ -413,6 +413,9 @@ h2 {
 	}
 }
 @media screen and (max-width: 600px){
+	#arrow {
+		width: 0px;
+	}
 	.button-donate {
 		width: 110px;
 		text-align: center;
@@ -449,7 +452,7 @@ h2 {
 		margin-bottom: 700px;
 	}
 	.section_1 {
-		padding-top: 50px;
+		padding-top: 70px;
 	}
 	.section_1_right {
 		padding-top: 30px;
