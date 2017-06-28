@@ -17,17 +17,17 @@
 //= require_tree .
 	
 
+	// controls for button that leads to bottom of page
 	function drop() {
 		$('html, body').animate({ scrollTop: $(".section_5").offset().top}, 'slow');
 	}
 
 	function drop() {
-		    $('html,body').animate({
-		        scrollTop: $(".section_5").offset().top},'slow'); 
-		}
+		$('html,body').animate({
+		    scrollTop: $(".section_5").offset().top},'slow'); 
+	}
 
-
-
+	// controls parallax effect 
 	function parallex () {
 		var ypos = window.pageYOffset; 
 		var	image = document.getElementById('section_1'); 
@@ -58,7 +58,7 @@
 
 		function left() {
 			pos = window.pageYOffset; 
-			if (pos > 700) {
+			if (pos > 1150) {
 				$('.left').animate({left: '0px'}, 1200);
 			}
 		}
@@ -66,7 +66,7 @@
 
 		function right() {
 			pos = window.pageYOffset; 
-			if (pos > 1500) {
+			if (pos > 1800) {
 				$('.right').animate({right: '0px'}, 1200);
 			}
 		}
